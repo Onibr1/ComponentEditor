@@ -1,6 +1,6 @@
 {
   "name": "NodeMCU1",
-  "supportedControllers": [],
+  "supportedControllers": ["ArduinoMega"],
   "license": "rapid",
   "instantiate": {}
 }

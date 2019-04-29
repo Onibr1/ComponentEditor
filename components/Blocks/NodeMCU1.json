@@ -1,26 +1,27 @@
 {
   "name": "NodeMCU1",
   "category": [
-    "controller", "connectivity"
+    "connectivity"
   ],
   "blockId": "360216",
   "app": {
-    "appName": "Node MCU 1.0V",
-    "image": "http://res.cloudinary.com/circuito/image/upload/xegsn3dtgtm0xm8rfo5z",
+    "visible": true,
     "numericName": "",
     "shortName": "Node MCU",
+    "appName": "Node MCUcustom",
+    "image": "http://res.cloudinary.com/circuito/image/upload/xegsn3dtgtm0xm8rfo5z",
     "indicators": {
       "verified": false,
       "solder": false
     },
-    "desc": "<p>NodeMCU is an Arduino compatible ESP8266 based micro controller with on-board WiFi. It is great for Internet of Things (IoT) projects or just as an Arduino replacement.</p>",
-    "visible": true
+    "desc": "<p>NodeMCU is an Arduino compatible ESP8266 based micro controller with on-board WiFi. It is great for Internet of Things (IoT) projects or just as an Arduino replacement.</p>"
   },
+  "altComp": {},
   "circuits": [
     {
       "name": "ExPower",
       "supportedControllers": [
-        "NodeMCU"
+        "ArduinoMega"
       ],
       "parts": [
         {
